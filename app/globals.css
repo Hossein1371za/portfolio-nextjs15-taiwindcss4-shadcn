@@ -46,3 +46,37 @@
 body {
   @apply bg-primary text-white font-primary;
 }
+h1 {
+  @apply text-[40px] md:text-[52px] xl:text-[56px] font-extrabold;
+}
+h2 {
+  @apply text-[32px] md:text-[36px] xl:text-[38px] font-medium;
+}
+h3 {
+  @apply text-[28px] md:text-[30px] xl:text-[32px] font-medium;
+}
+h4 {
+  @apply text-[22px] md:text-[26px] font-medium;
+}
+.container {
+  @apply px-[15px];
+}
+/* btns */
+.btn {
+  @apply flex items-center justify-center rounded-full cursor-pointer transition-all font-medium h-[56px];
+}
+.btn-sm {
+  @apply min-w-[168px] px-5 text-[15px] font-semibold;
+}
+.btn-lg {
+  @apply min-w-[200px] px-6;
+}
+.btn-accent {
+  @apply bg-accent hover:bg-accent-hover;
+}
+.btn-tartiary {
+  @apply bg-tartiary hover:bg-tartiary-hover;
+}
+.btn-white{
+  @apply bg-white hover:bg-white/90 text-primary
+}
